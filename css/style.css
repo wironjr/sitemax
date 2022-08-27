@@ -1,0 +1,43 @@
+/* estrututa*/
+body{
+	background: #f4f2ec url(../img/fundo.png) repeat-x;
+	font: 12px "Lucinda Grande", "Lucinda Sans Unicode", Arial, sans-serif;
+
+}
+/*logo menu top*/
+#logo-max{
+	width: 150px;
+	height: 43px;
+	display: block;
+	text-indent: -9999px;
+	filter: drop-shadow(1px 1px 1px #000);
+	background: url(../img/max-logo.PNG) no-repeat;
+}
+
+
+/*navbar*/
+.navbar ul li a{
+	padding: 0;
+	color: white;
+	text-transform: uppercase;
+
+}
+
+.navbar ul li a:hover{
+	color: #dedede;
+	border-bottom: 1px solid #dedede;
+
+}
+
+.navbar ul li .semborda:hover{
+	border: none;
+}
+
+#navbarNav{
+	float: right;
+}
+
+.card ul li img{
+	width: 350px;
+	border-radius: 7px 7px 0 0;
+}
