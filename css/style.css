@@ -64,6 +64,30 @@ body{
 	padding-left: 23px;
 }
 
+/*card marcas proximo ao search*/
+.card-marca{
+	margin-right: 10px;
+}
+
+.card-marca a{
+	text-decoration: none;
+}
+
+.card-marca:hover{
+	box-shadow: 2px 1px 6px #dedede;
+	transition: all 0.3s;
+	
+}
+
+.tamanho-logo-card{
+	width: 80px;
+	height: 70px;
+}
+
+.tamanho-logo-card img{
+	margin: 20px 0 0 0;
+}
+
 /*rodape*/
 footer{
 	width: 100%;
