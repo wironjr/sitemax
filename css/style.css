@@ -39,6 +39,9 @@ body{
 }
 
 /*card*/
+.card{
+	margin-bottom: 6px;
+}
 .card ul li img{
 	width: 350px;
 	border-radius: 7px 7px 0 0;
@@ -86,6 +89,14 @@ body{
 
 .tamanho-logo-card img{
 	margin: 20px 0 0 0;
+}
+
+/******************cards diversos apos novidades ************/
+#card-deiversos{
+	width: 100%;
+	height: 400px;
+	margin-bottom: 30px;
+
 }
 
 /*rodape*/
