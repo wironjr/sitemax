@@ -13,35 +13,43 @@
     <title>Max Veículos</title>
 </head>
     <body>
-        
-
-        <nav class="navbar navbar-expand-lg bg-dark fixed-top"><!--inicio navbar-->
+        <nav class="navbar navbar-expand-lg bg-dark fixed-top"><!--menu top-->
               <div class="container-fluid">
-                <a class="navbar-brand" href="#"><h1 id="logo-max">Max Veículos</h1></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <a class="navbar-brand" href="#"><h1 id="logo-max">Max Veículos</h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse position-absolute top-50 end-0 translate-middle-y" id="navbarNav">
-                  <ul class="navbar-nav ">
-                    <li class="nav-item">
-                      <a class="nav-link " href="#">estoque</a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                     <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle semborda" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        ESTOQUE
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Loja 1</a></li>
+                        <li><a class="dropdown-item" href="#">Conceito</a></li>
+                        <li><a class="dropdown-item" href="#">Repasse</a></li>
+                         <li><a class="dropdown-item" href="#">Aldeota</a></li>
+                          <li><a class="dropdown-item" href="#">Motos</a></li>
+                      </ul>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">venda seu carro</a>
+                      <a class="nav-link" aria-current="page" href="#">venda seu carro</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">financie</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">(85)3988-2311</a>
+                      <a class="nav-link" href="#">(85) 3021.2211</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link semborda" href="#"><img src="img/whatsapp.png" width="26px"></a>
+                      <a class="nav-link semborda " href="#"><img src="img/whatsapp.png" width="26px"></a>
                     </li>
                   </ul>
                 </div>
               </div>
-        </nav> <!--fim navbar-->
+            </nav> <!--fim menu top-->
+
 
         <div style="margin-top: 70px;"><!--carrossel de img-->
             <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">

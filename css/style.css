@@ -17,26 +17,31 @@ body{
 
 /*navbar*/
 .navbar ul li a{
-	padding: 0;
 	color: white;
 	text-transform: uppercase;
+}
 
+.navbar ul li .dropdown-menu a{
+	color: black;
+	text-transform: uppercase;
+}
+
+.navbar ul li .dropdown-menu a:hover{
+	color: black;
+	background: #dedede;
 }
 
 .navbar ul li a:hover{
 	color: #dedede;
+	padding-bottom: 0;
 	border-bottom: 1px solid #dedede;
-
-
 }
 
 .navbar ul li .semborda:hover{
 	border: none;
 }
 
-#navbarNav{
-	float: right;
-}
+
 
 /*card*/
 .card{
