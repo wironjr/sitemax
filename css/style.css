@@ -21,13 +21,23 @@ a{
 	.text-qual-veiculo{
 		text-align: center;
 	}
-	
+	.barra-search{
+		display: flex;
+		justify-content: center;
+	}
 }
 
 @media screen and (max-width: 768px) {
 	.bnt-responsive{
 		margin-top: 10px !important;
 
+	}
+	.text-qual-veiculo{
+		text-align: center;
+	}
+	.barra-search{
+		display: flex;
+		justify-content: center;
 	}
 }
 
