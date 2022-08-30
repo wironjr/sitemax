@@ -17,6 +17,10 @@ a{
 	.conteiner-card-marca{
 		align-content: space-around;
 	}
+
+	.text-qual-veiculo{
+		text-align: center;
+	}
 	
 }
 
