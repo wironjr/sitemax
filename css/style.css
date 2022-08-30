@@ -96,7 +96,8 @@ a{
 
 /*card marcas proximo ao search*/
 .card-marca{
-	margin-right: 10px;
+
+	margin: 6px;
 }
 
 .card-marca a{
@@ -104,8 +105,8 @@ a{
 }
 
 .card-marca:hover{
-	box-shadow: 2px 1px 6px #dedede;
-	transition: all 0.3s;
+	box-shadow: 2px 1px 5px #000;
+	transition: all 0.7s;
 	
 }
 
