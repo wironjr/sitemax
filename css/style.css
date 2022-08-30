@@ -9,6 +9,24 @@ a{
 	text-decoration: none;
 }
 
+/********************** resposive *******************/
+@media screen and (max-width: 540px) {
+	.bnt-responsive{
+		margin-top: 60px;
+	}
+	#busca-modelo-resp{
+		border: 1px solid red;
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.bnt-responsive{
+		margin-top: 60px;
+
+	}
+}
+
 /*logo menu top*/
 #logo-max{
 	width: 150px;
@@ -16,7 +34,7 @@ a{
 	display: block;
 	text-indent: -9999px;
 	filter: drop-shadow(1px 1px 1px #000);
-	background: url(../img/max-logo.PNG) no-repeat;
+	background: url(../img/grupomax.PNG) no-repeat;
 }
 
 
@@ -53,7 +71,7 @@ a{
 	margin-bottom: 6px;
 }
 .card ul li img{
-	width: 350px;
+	width: 100%;
 	border-radius: 7px 7px 0 0;
 }
 
