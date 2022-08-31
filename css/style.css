@@ -25,6 +25,10 @@ a{
 		display: flex;
 		justify-content: center;
 	}
+
+	.title-disponivel{
+		text-align: center !important;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -39,7 +43,13 @@ a{
 		display: flex;
 		justify-content: center;
 	}
+
+	.title-disponivel{
+		text-align: center !important;
+	}
 }
+
+/*****************************/
 
 
 
@@ -81,6 +91,10 @@ a{
 	border: none;
 }
 
+.ativo a{
+	background-color: #000;
+	color: #fff;
+}
 
 
 /*card*/
@@ -132,6 +146,10 @@ a{
 .tamanho-logo-card img{
 	margin: 20px 0 0 0;
 
+}
+
+.loja1-card-marca{
+	display: none;
 }
 
 /******************cards diversos apos novidades ************/
