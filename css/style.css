@@ -183,3 +183,15 @@ footer{
 	height: 50px;
 	background: #dedede;
 }
+
+
+/******* personalização bs ***********/
+
+.navbar-toggler{
+	background: white !important;
+}
+
+.active{
+	color: #fff !important;
+	background: #000 !important;
+}
