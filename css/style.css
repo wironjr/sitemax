@@ -79,22 +79,28 @@ a{
 .navbar ul li .dropdown-menu a:hover{
 	color: black;
 	background: #dedede;
+	transition: all 0.5s;
 }
 
 .navbar ul li a:hover{
-	color: #dedede;
-	padding-bottom: 0;
-	border-bottom: 1px solid #dedede;
+	color: yellow;
+	;
+	
 }
 
 .navbar ul li .semborda:hover{
 	border: none;
 }
 
-.ativo a{
-	background-color: #000;
-	color: #fff;
+.whats-hover  span{
+	color: #212529;
 }
+
+.whats-hover span:hover{
+	color: white;
+	transition: color 0.5s;
+}
+
 
 
 /*card*/
