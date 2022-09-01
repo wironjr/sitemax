@@ -29,6 +29,10 @@ a{
 	.title-disponivel{
 		text-align: center !important;
 	}
+
+	.mais-fotos-grid{
+		display: none;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -46,6 +50,10 @@ a{
 
 	.title-disponivel{
 		text-align: center !important;
+	}
+
+	.mais-fotos-grid{
+		display: none;
 	}
 }
 
@@ -132,6 +140,11 @@ a{
 	padding-left: 23px;
 }
 
+.gas{
+	background: url(../img/gas.png) no-repeat;
+	padding-left: 23px;
+}
+
 /*card marcas proximo ao search*/
 
 .card-marca a{
@@ -201,3 +214,44 @@ footer{
 	color: #fff !important;
 	background: #000 !important;
 }
+
+
+
+/*************  grid ************/
+
+.column1 {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+
+}
+
+.column1 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.column2 {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.mais-fotos-grid{
+	color: #fff;
+	text-decoration: none;
+}
+
