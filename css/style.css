@@ -217,6 +217,13 @@ a{
 	background: #dedede;
 }
 
+#card-opcoes{
+	width: 100%;
+	height: 90%;
+	margin-bottom: 60px;
+	background: #212529;
+}
+
 /************** rede social ****************/
 .rede-social a{
 	text-decoration: none;
