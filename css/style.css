@@ -47,6 +47,11 @@ a{
 		
 	}
 
+	.mapa-google{
+		width: 350px ;
+		height: 300px ;
+	}
+
 	
 
 
@@ -80,12 +85,19 @@ a{
 		flex-wrap: wrap;
 	
 	}
+	.mapa-google{
+		width: 350px ;
+		height: 300px ;
+	}
 	
 }
 
 /*****************************/
 
-
+/*********mapa loja**********/
+.mapa-google{
+	border-radius: 5px;
+}
 
 
 /*logo menu top*/
