@@ -38,7 +38,37 @@
                       <a class="nav-link" aria-current="page" href="#">venda seu carro</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">financie</a>
+                      <a class="nav-link" href="#">
+                        <div class="botao" style="margin-top: -19px">
+                        <!-- Button to open the modal login form  TRABALHE CONOSCO-->
+                            <button onclick="document.getElementById('id01').style.display='block'" style="background: #212529; color: white; border: none;">TRABALHE CONOSCO</button>
+
+                            <!-- The Modal -->
+                            <div id="id01" class="modal1">
+                              <span onclick="document.getElementById('id01').style.display='none'"
+                            class="close1" title="Close Modal">&times;</span>
+
+                              <!-- Modal Content -->
+                              <form class="modal-content1 animate1" action="/action_page.php">
+                                
+                                <div class="container1 text-black">
+                                  <label for="uname"><b>Nome</b></label>
+                                  <input type="text" placeholder="Maria Eduarda" name="uname" required>
+
+                                  <label for="psw1"><b>Curriculum</b></label>
+                                  <br><textarea placeholder="Digite seu Curriculum" style="width: 100%; height: auto; border-radius: 9px;"></textarea>
+
+                                  
+                                </div>
+
+                                <div class="container1" style="background-color:#f1f1f1">
+                                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn1">Enviar</button>
+                                  
+                                </div>
+                              </form>
+                            </div>
+                      </a>
+                  </div>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">(85) 3021.2211</a>
@@ -52,6 +82,8 @@
                 </div>
               </div>
             </nav> <!--fim menu top-->
+
+
 
 
         <div style="margin-top: 67px;"><!--carrossel de img-->
@@ -426,7 +458,11 @@
                           </div>
                           <div class="offcanvas-body">
                             <div>
-                                <h6>ACERTO 1.0 - GW SOFTWARE</h6>
+                                <h6>ACERTO 1.0</h6>
+                            </div>
+
+                            <div>
+                                <img src="img/gwlogo.png" width="60">
                             </div>
                             </div>
                         </div>
@@ -443,6 +479,8 @@
         </div>
     </footer>
 
+    
+
     <script>
         const toastTrigger = document.getElementById('liveToastBtn')
         const toastLiveExample = document.getElementById('liveToast')
@@ -454,6 +492,20 @@
           })
         }
     </script>
+
+    <script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+</script>
+
+    
 
     </body>
 </html>
