@@ -283,7 +283,7 @@ footer{
 
 /************** trabalhe conosco **************/
 /* Full-width input fields */
-input[type=text], input[type=password] {
+.botao input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -391,6 +391,19 @@ span.psw1 {
 }
 
 /* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 500px) {
+  span.psw1 {
+     display: block;
+     float: none;
+  }
+  .cancelbtn1 {
+     width: 100%;
+  }
+  .botao{
+  	margin-left: -8px;
+  }
+}
+
 @media screen and (max-width: 300px) {
   span.psw1 {
      display: block;
@@ -400,6 +413,6 @@ span.psw1 {
      width: 100%;
   }
   .botao{
-  	margin-left: -40px;
+  	margin-left: -8px;
   }
 }
