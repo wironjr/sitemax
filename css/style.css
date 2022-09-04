@@ -313,6 +313,12 @@ footer{
 	text-decoration: none;
 }
 
+/******************* grid bancos **************/
+.banks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 /************** trabalhe conosco **************/
 /* Full-width input fields */
 .botao input[type=text], input[type=password] {
