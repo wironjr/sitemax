@@ -146,6 +146,14 @@ a{
 	transition: color 0.5s;
 }
 
+.ativo{
+	color: yellow !important;
+}
+
+.ativo-drop{
+	background: #dedede !important;
+}
+
 
 
 /*card*/
