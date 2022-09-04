@@ -122,10 +122,11 @@
                     <div class="barra-search">
                         <div class="input-group input-group-sm mb-3 md" id="busca-modelo-resp" style="width: 300px;">
                           <input type="search" class="form-control " placeholder="Marca ou modelo" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                          <span class="input-group-text" id="basic-addon2"><button style="border: none;"><img src="img/lupa.png" width="26"></button></span>
+                          <span class="input-group-text" onclick="aleta()" id="basic-addon2"><button style="border: none;"><img src="img/lupa.png" width="26"></button></span>
                         </div>
                     </div>
 
+                    
                 <div class="bnt-responsive d-grid gap-2 d-md-flex justify-content-md-end" style="margin-top: -50px;">
                     <button type="button" class="btn btn-primary btn-warning" id="liveToastBtn">Todo o estoque</button>
                         <div class="toast-container position-fixed bottom-0 end-0 p-3">
@@ -134,7 +135,7 @@
                               <img src="img/gwlogo.png" width="50px" class="rounded me-2" alt="...">
                               <strong class="me-auto">Calma amigo!</strong>
                               <small>Desculpe!</small>
-                              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                              <button type="button"  class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                             </div>
                             <div class="toast-body">
                               Ainda vamos implementar esse botão.
@@ -260,7 +261,7 @@
 
                 </li>
                 <li class="list-group-item text-start"><span class="fs-6">R$</span><span class="fs-4"><strong>18.0000,00</strong></span>
-                    <button type="button" class="btn btn-sm btn-outline-warning position-absolute top-50 end-0 translate-middle-y me-2" style="font-size: 0.6rem;"><strong>Ver mais...</strong></button>
+                    <button type="button" onclick="aleta()" class="btn btn-sm btn-outline-warning position-absolute top-50 end-0 translate-middle-y me-2" style="font-size: 0.6rem;"><strong>Ver mais...</strong></button>
                 </li>
               </ul>
 
@@ -288,7 +289,7 @@
 
                 </li>
                 <li class="list-group-item text-start"><span class="fs-6">R$</span><span class="fs-4"><strong>185.0000,00</strong></span>
-                    <button type="button" class="btn btn-sm btn-outline-warning position-absolute top-50 end-0 translate-middle-y me-2" style="font-size: 0.6rem;"><strong>Ver mais...</strong></button>
+                    <button type="button" onclick="aleta()" class="btn btn-sm btn-outline-warning position-absolute top-50 end-0 translate-middle-y me-2" style="font-size: 0.6rem;"><strong>Ver mais...</strong></button>
                 </li>
               </ul>
             </div><!-- fim card veículo--> <!-- fim ficha tecnica veículo-->  
@@ -315,7 +316,7 @@
 
                 </li>
                 <li class="list-group-item text-start"><span class="fs-6">R$</span><span class="fs-4"><strong>18.0000,00</strong></span>
-                    <button type="button" class="btn btn-sm btn-outline-warning position-absolute top-50 end-0 translate-middle-y me-2" style="font-size: 0.6rem;"><strong>Ver mais...</strong></button>
+                    <button type="button" onclick="aleta()" class="btn btn-sm btn-outline-warning position-absolute top-50 end-0 translate-middle-y me-2" style="font-size: 0.6rem;"><strong>Ver mais...</strong></button>
                 </li>
               </ul>
             </div><!-- fim card veículo--> <!-- fim ficha tecnica veículo-->  
@@ -325,7 +326,7 @@
     </div><!--fim conteiner card novidades-->
 
     <div class="text-center" style="margin-bottom: 50px;"> <!--botao ver mais novidades -->
-        <button type="button" class="btn  btn-warning">Veja todas as novidades</button>
+        <button type="button" onclick="aleta()" class="btn  btn-warning">Veja todas as novidades</button>
     </div><!-- fim botao ver mais novidades -->
 
     <div class="bg-dark" id="card-deiversos"> <!--conteiner card abaixo novidades -->
@@ -501,6 +502,12 @@
       }
     }
 </script>
+
+    <script>
+        function aleta() {
+            alert("\nGW SOFTWARE\nAinda vamos implementar esse botão!")
+        }
+    </script>
 
     
 
