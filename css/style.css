@@ -1,6 +1,5 @@
 /* estrututa*/
 body{
-	background: #f4f2ec url(../img/fundo.png) repeat-x;
 	font: 12px "Lucinda Grande", "Lucinda Sans Unicode", Arial, sans-serif;
 
 }
@@ -254,6 +253,14 @@ footer{
 	background: #dedede;
 }
 
+.endereco h6{
+	color: yellow;
+	margin-bottom: 0;
+}
+
+.endereco h5{
+	color: yellow;
+}
 
 /******* personalização bs ***********/
 
