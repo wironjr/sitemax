@@ -42,3 +42,5 @@ window.addEventListener("scroll", reveal2);
 function aleta() {
             alert("\nGW SOFTWARE\nAinda vamos implementar esse botão!")
         }
+
+        
