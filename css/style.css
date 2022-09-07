@@ -490,6 +490,28 @@ span.psw1 {
 	100% {right: 0px;}
 }
 
+.opacity-animate{
+	animation-name: opacidade;
+	animation-duration: 2s;
+}
+
+@keyframes opacidade{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+.opacity-animate-delay{
+
+	animation-name: opacidade2;
+	animation-duration: 2s;
+	animation-delay: 0.6s;
+	animation-fill-mode: both;
+}
+
+@keyframes opacidade2{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
 
 
 
