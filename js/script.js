@@ -1,3 +1,4 @@
+/********** animação ********/
 function reveal1() {
   var reveals = document.querySelectorAll(".reveal1");
 
@@ -34,3 +35,10 @@ function reveal2() {
 }
 
 window.addEventListener("scroll", reveal2);
+
+
+/********** alerta **************/
+
+function aleta() {
+            alert("\nGW SOFTWARE\nAinda vamos implementar esse botão!")
+        }
