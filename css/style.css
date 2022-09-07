@@ -462,3 +462,61 @@ span.psw1 {
   	margin-left: -8px;
   }
 }
+
+/**************** animation ******************/
+.animate-left{
+	animation-name: left;
+  animation-duration: 2s;
+  position: relative;
+  animation-timing-function: ease;
+}
+
+@keyframes left {
+	0% {left: 600px; opacity: 0;}
+	
+	100% {left: 0px; opacity: 1;}
+}
+
+.animate-rigth{
+	animation-name: rigth;
+  animation-duration: 2s;
+  position: relative;
+  animation-timing-function: ease;
+}
+
+@keyframes rigth {
+	0% {right: 600px;}
+	
+	100% {right: 0px;}
+}
+
+
+
+
+
+.reveal1{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+  background: transparent !important;
+}
+
+.reveal1.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+.reveal2{
+  position: relative;
+  transform: translateX(150px);
+  opacity: 0;
+  transition: 1s all ease;
+  background: transparent !important;
+}
+
+.reveal2.active{
+  transform: translateX(0);
+  opacity: 1;
+}
