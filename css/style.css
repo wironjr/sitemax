@@ -109,6 +109,22 @@ a{
 	background: url(../img/grupomax.PNG) no-repeat;
 }
 
+/************* msg sticky **************/
+#mensagem{
+	text-align: right;
+	padding-right: 10px;
+	font-size: 0.8rem;
+}
+
+#func{
+	color: gray;
+}
+
+#func2{
+	font-weight: bold;
+}
+
+/********************/
 
 /*navbar*/
 .navbar ul li a{
