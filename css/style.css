@@ -113,14 +113,22 @@ a{
 #mensagem{
 	text-align: right;
 	padding-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 0;
 	font-size: 0.8rem;
 }
 
 #func{
+	font-size: 0.8rem;
+	text-align: right;
+	font-weight: 600;
 	color: gray;
 }
 
 #func2{
+	font-size: 0.9rem;
+	text-align: right;
+	padding-right: 10px;
 	font-weight: bold;
 }
 

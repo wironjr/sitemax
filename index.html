@@ -19,7 +19,10 @@
     <title>Grupo Max Veículos</title>
 </head>
     <body>
-        <div><h6 id="mensagem">
+        <div>
+            <div>
+            <h6 id="mensagem"></h6>
+            </div>
             <script>
                   var hora = new Date().getHours()
                   var saudacao
@@ -36,47 +39,53 @@
 
                   document.getElementById("mensagem").innerHTML = saudacao
             </script>
-            <div><span id="func"></span> <span id="func2"></span></div>
+            <div style="text-align: right; margin-top: 0">
+                <span id="func"></span>
+                <span id="func2"></span>
+            </div>
             <script>
                 var semana = ["Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado"];
                 var d = new Date();
+
+                var min = d.getMinutes()
+
                 var funcionamento
 
-               
+
                 if (d.getDay() == 0){
                     funcionamento = "não estamos funcionando"
                 }else if(d.getDay() == 1){
-                    if( hora >= 8 && hora < 18){
+                    if((hora >= 8 && hora <= 17) && (min <= 59)){
                         funcionamento = "estamos Funcionando"
                     }else{
                         funcionamento = "não estamos funcionando"
                     }
                 }else if(d.getDay() == 2){
-                    if( hora >= 8 && hora < 18){
+                    if((hora >= 8 && hora <= 17) && (min <= 59)){
                         funcionamento = "estamos Funcionando"
                     }else{
                         funcionamento = "não estamos funcionando"
                     }
                 }else if(d.getDay() == 3){
-                    if( hora >= 8 && hora < 18){
+                    if((hora >= 8 && hora <= 17) && (min <= 59)){
                         funcionamento = "estamos Funcionando"
                     }else{
                         funcionamento = "não estamos funcionando"
                     }
                 }else if(d.getDay() == 4){
-                    if( hora >= 8 && hora < 18){
+                    if((hora >= 8 && hora <= 17) && (min <= 59)){
                         funcionamento = "estamos Funcionando"
                     }else{
                         funcionamento = "não estamos funcionando"
                     }
                 }else if(d.getDay() == 5){
-                    if( hora >= 8 && hora < 18){
+                    if((hora >= 8 && hora <= 17) && (min <= 59)){
                         funcionamento = "estamos Funcionando"
                     }else{
                         funcionamento = "não estamos funcionando"
                     }
                 }else if(d.getDay() == 6){
-                    if( hora >= 8 && hora < 14){
+                    if((hora >= 8 && hora <= 13) && (min <= 59)){
                         funcionamento = "estamos Funcionando"
                     }else{
                         funcionamento = "não estamos funcionando"
@@ -86,7 +95,8 @@
                 document.getElementById("func").innerHTML = semana[d.getDay()] + ","
                 document.getElementById("func2").innerHTML = funcionamento
             </script>
-            </h6>
+        </div>
+            
         </div>
         <div class="sticky-top">
         <nav class=" navbar navbar-expand-lg bg-dark"><!--menu top-->
