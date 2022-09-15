@@ -43,17 +43,3 @@ function aleta() {
             alert("\nGW SOFTWARE\nAinda vamos implementar esse botão!")
         }
 
-/********** mensagem bom dia ***********/   
-function msgbomdia() {
-var hora = new Date().getHours()
-  var saudacao
-
-  if( hora < 12) {
-      saudacao = "Bom Dia!"
-  }else if( hora < 18){
-      saudacao = "Boa Tarde!"
-  }else{
-      saudacao = "Boa Noite!"
-  }
-
-  document.getElementById("mensagem").innerHTML = saudacao}
