@@ -44,56 +44,33 @@
                 <span id="func2"></span>
             </div>
             <script>
-                var semana = ["domingo", "segunda-fFeira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"];
+                var semana = ["domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"];
                 var d = new Date();
-
                 var min = d.getMinutes()
-
+                var data = d.getDay()
                 var funcionamento
 
-              
-
-                if (d.getDay() == 0){
+                if (data == 0){ //domingo
                     funcionamento = "não estamos funcionando"
-                }else if(d.getDay() == 1){
-                    if((hora >= 8 && hora <= 17) && (min <= 59)){
-                        funcionamento = "estamos funcionando até às 18h"
-                    }else{
-                        funcionamento = "já estamos fechados, voltamos às 8h"
-                    }
-                }else if(d.getDay() == 2){
-                    if((hora >= 8 && hora <= 17) && (min <= 59)){
-                        funcionamento = "estamos funcionando até às 18h"
-                    }else{
-                        funcionamento = "já estamos fechados, voltamos às 8h"
-                    }
-                }else if(d.getDay() == 3){
-                    if((hora >= 8 && hora <= 17) && (min <= 59)){
-                        funcionamento = "estamos funcionando até às 18h"
-                    }else{
-                        funcionamento = "já estamos fechados, voltamos às 8h"
-                    }
-                }else if(d.getDay() == 4){
-                    if((hora >= 8 && hora <= 17) && (min <= 59)){
-                        funcionamento = "estamos funcionando até às 18h"
-                    }else{
-                        funcionamento = "já estamos fechados, voltamos às 8h"
-                    }
-                }else if(d.getDay() == 5){
-                    if((hora >= 8 && hora <= 17) && (min <= 59)){
-                        funcionamento = "estamos funcionando até às 18h"
-                    }else{
-                        funcionamento = "já estamos fechados, voltamos às 8h"
-                    }
-                }else if(d.getDay() == 6){
+                }else if(data == 6){ //sábado
                     if((hora >= 8 && hora <= 13) && (min <= 59)){
                         funcionamento = "estamos funcionando até às 14h"
+                    }else if((hora >=0 && hora <= 7) && (min <= 59)){
+                        funcionamento = "ainda estamos fechados, abriremos 8h"
                     }else{
                         funcionamento = "já estamos fechados, voltamos segunda-feira às 8h"
                     }
+                }else if(data >= 1 || data <= 5) { //segunda a sexta
+                    if((hora >= 8 && hora <= 17) && (min <= 59)){
+                        funcionamento = "estamos funcionando até às 18h"
+                    }else if((hora >=0 && hora <= 7) && (min <= 59)){
+                        funcionamento = "ainda estamos fechados, abriremos 8h"
+                    }else{
+                        funcionamento = "já estamos fechados, voltamos às 8h"
+                    }
                 }
 
-                document.getElementById("func").innerHTML = "Hoje é " + semana[d.getDay()] + ","
+                document.getElementById("func").innerHTML = "Hoje é " + semana[data] + ","
                 document.getElementById("func2").innerHTML = funcionamento
             </script>
         </div>
